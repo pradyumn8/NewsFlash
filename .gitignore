@@ -11,8 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
-.News.jsx
-.NewsDetails.jsx
+# Ignore data.js
+/src/data.js
+
 
 # Editor directories and files
 .vscode/*
