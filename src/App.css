@@ -61,14 +61,14 @@ body {
   font-size: 0.9rem;
   color: #007bff;
   font-weight: 400;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .card-body h5 {
   font-size: 1.25rem;
   color: #333;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .card-body p {
@@ -102,4 +102,18 @@ body {
   justify-content: space-between;
   padding: 20px;
   gap: 20px;
+}
+@media (max-width:900px){
+  .container{
+    flex-basis: calc(45% - 40px);
+  }
+}
+
+@media (max-width:600px) {
+  .header-title{
+    font-size: 3rem;
+  }
+  .container{
+    flex-basis: 100%;
+  }
 }
